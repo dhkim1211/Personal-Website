@@ -235,7 +235,7 @@ h5{
 /*Global styles
 ==============================================*/
 .section-padding{
-	padding: 100px 0px;
+	padding: 90px 0px;
 }
 p{
 	color: #919191;
@@ -308,6 +308,20 @@ h4.title{
 	margin: 0px 30px;
 }
 
+.socail-link1 a i{
+	background: ;
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+	color: #fff;
+	font-size: 30px;
+	line-height: 35px;
+	margin: 5px;
+}
+
+.socail-link1 a i:hover {
+	font-size: 35px;
+}
 
 
 /*==================================================
@@ -391,24 +405,39 @@ h4.title{
 	background: #f2f2f1;
 }
 
+#aboutme {
+	height: 340px;
+	top: 50%;
+}
+
+.pic {
+	max-width: 40%;
+	max-height: auto;
+	margin: 0 auto;
+	border-radius: 20%;
+	display: block;
+	padding: -20px;
+}
+
 .profile-bg {
     background-color: transparent;
-    background: url("../images/profilepic2.jpg");
+    background: url("../images/pic.jpg");
     position: absolute;
     background-clip: border-box;
     background-attachment: scroll;
     background-origin: padding-box;
     background-repeat: no-repeat;
-    left: 0px;
-    top: 0px;
-    height: 100%;
+    left: 10%;
+    top: 20%;
+    height: 50%;
     z-index: 2;
-    background-size: cover;
-    background-position: -40px center, 0px center;
-    width: 45%;
+    background-size: 100% auto;
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
 }
 .profile-desc{
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 	padding-left: 80px;
 }
 .profile-desc h2{
@@ -481,7 +510,7 @@ h4.title{
 ==========================================*/
 
 #section-resume{
-	background: #f2f2f1;
+	background: #fff;
 	position: relative;
 }
 #section-resume:after{
@@ -493,7 +522,7 @@ h4.title{
 	-ms-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
-	background: #f2f2f1;
+	background: #fff;
 	bottom: -12px;
 	left: 48%;
 }
@@ -581,6 +610,10 @@ h4.title{
 #section-portfolio
 .section-heading{
 	margin-bottom: 100px;
+}
+
+#section-portfolio {
+	background: #f2f2f1;
 }
 .portfolio-box{
 	position: relative;
@@ -691,6 +724,7 @@ h4.title{
 	font-size: 20px;
 	line-height: 35px;
 }
+
 .socail-link a:hover i{
 	color: #fff;
 }
